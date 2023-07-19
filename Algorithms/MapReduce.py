@@ -1,3 +1,8 @@
+'''
+MapReduce is a programming model that is typically implemented on distributed systems like Hadoop or Apache Spark.
+The code involves writing mapper and reducer functions.
+Here's a simplified version of a word count using MapReduce-like functions in Python:
+'''
 def mapper(data):
     words = data.split()
     for word in words:
