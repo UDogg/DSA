@@ -3,6 +3,10 @@
 #include <vector>
 
 using namespace std;
+/*
+BFS(Breadth First Search) is a graph traversal algorithm that visits all vertices in a graph at the same level before moving to the next level.
+It is useful for finding shortest paths and connected components.
+*/
 
 void BFS(const Graph& graph, int start) {
     vector<bool> visited(graph.V, false);
